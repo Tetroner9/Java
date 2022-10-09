@@ -45,8 +45,6 @@ public class ShopBill {
         float tot_qty;
 
         do {
-
-
             ID=ID + 1;
             System.out.println("ID: "+ID);
             System.out.println("Enter product name");
