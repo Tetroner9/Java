@@ -35,9 +35,6 @@ class StringTest {
                     longword = word[i];
                     longword = "*"+longword+"*";
                 }
-
-
-
         return longword;
     }
 }
