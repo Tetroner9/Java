@@ -18,8 +18,8 @@ class Product{
         // TODO Auto-generated constructor stub
     }
     void displayhead() {
-        System.out.println("\t\t\t\t\t\t\t\t\t\tGADA ELECTRONICS");
-        System.out.println("\t\t\t\t\t\t\t\t\t\tSHANTI NAGAR");
+        System.out.println("\t\t\t\t\t\t\t\t\t\tGANAVA MADI GROCERY");
+        System.out.println("\t\t\t\t\t\t\t\t\t\t   SHANTI NAGAR");
         System.out.println("ID\t\t\t|\t\t\tName\t\t\t|\t\t\tQty.\t\t\t|\t\t\tRate\t\t\t|\t\tTot.Amount");
         System.out.println("-------------------------------------------------------------------------------------------------------------------------");
 
