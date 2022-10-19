@@ -1,4 +1,4 @@
-package com.java8.colg.exp_9_10_main;
+package com.java8.colg.exp_9;
 import java.util.*;
 import java.text.*;
 
