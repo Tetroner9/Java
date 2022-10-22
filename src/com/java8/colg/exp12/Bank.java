@@ -9,6 +9,7 @@ public class Bank extends Applet implements ActionListener {
     Button submit;
     public void init()
     {
+
         title=new Label("Registration Form");
         name=new Label("Enter your name:");
         account=new Label("Enter your account type:");
