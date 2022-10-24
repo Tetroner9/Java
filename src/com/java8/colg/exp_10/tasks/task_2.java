@@ -13,7 +13,7 @@ class Employee
         employee_name = sc.nextLine();
         System.out.println("Enter ID: ");
         employee_id = sc.nextInt();
-
+        sc.nextLine();
     }
     void print_employee_info()
     {
@@ -31,7 +31,7 @@ class Department extends Employee
         department_name = sc.nextLine();
         System.out.println("Number: ");
         department_no = sc.nextInt();
-
+        sc.nextLine();
     }
     void print_department_info()
     {

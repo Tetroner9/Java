@@ -12,5 +12,5 @@ public class task_1 extends Applet {
         g.drawArc(130, 180, 50, 20, 180, 180);
     }
 }
-/*<applet code ="Smiley" width=600 height=600>
+/*<applet code ="Task_1" width=600 height=600>
 </applet>*/
