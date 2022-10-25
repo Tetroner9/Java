@@ -1,5 +1,9 @@
 package com.java8.colg.exp_7_8.tasks_8;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Objects;
+
 import static com.java8.colg.exp_7_8.tasks_8.Modified.ModifiedString;
 import static com.java8.colg.exp_7_8.tasks_8.StringTest.*;
 
@@ -33,7 +37,7 @@ class StringTest {
             for (int j = 1 + i; j < word.length; j++)
                 if (word[i].length() >= word[j].length()) {
                     longword = word[i];
-                    longword = "*"+longword+"*";
+                    break;
                 }
         return longword;
     }
@@ -41,9 +45,22 @@ class StringTest {
 
 class Modified extends StringTest{
     public static String ModifiedString(String str){
+        str = str.replaceAll("SFIT", "St.Francis Institute of Technology");
+        String longword = LongestWord(str);
+        String[] word = str.split(" ");
+        ArrayList<String> words = new ArrayList<String>(
+                Arrays.asList(word));
+        for (String s : words) {
 
+            if (Objects.equals(s, longword)) {
+                String match = s;
+                String newword = "*" + match + "*";
 
-        return str.replaceAll("SFIT", "St.Francis Institute of Technology");
+                return str.replace(match, newword);
+
+            }
+        }
+        return null;
     }
 }
 public class task_2 {
@@ -57,10 +74,6 @@ public class task_2 {
         System.out.println("\nReplaced Occurences: \n"+ReplaceOccurences(str));
         System.out.println("\nLongest Word: \n"+LongestWord(str));
         System.out.println("\nModified: \n"+ModifiedString(str));
-
-
-
     }
 
-    }
-
+}
