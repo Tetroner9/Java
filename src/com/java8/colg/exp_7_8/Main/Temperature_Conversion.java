@@ -1,7 +1,7 @@
 package com.java8.colg.exp_7_8.Main;
 import java.util.*;
 
-public class Temperature_Conversion {
+public class  Temperature_Conversion {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         double c,f,k,ans;

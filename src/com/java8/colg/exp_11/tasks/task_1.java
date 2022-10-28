@@ -26,6 +26,14 @@ public class task_1 {
         CustomException ce = new CustomException();
         System.out.println("Enter your name: ");
         String name = sc.nextLine();
-        ce.LetterLimit(name);
+        try
+        {
+            ce.LetterLimit(name);
+        }
+        catch (Exception w)
+        {
+            System.out.println("Exception occurred" +w);
+        }
+
     }
 }

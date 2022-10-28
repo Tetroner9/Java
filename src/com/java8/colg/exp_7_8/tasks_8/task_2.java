@@ -56,8 +56,7 @@ class Modifications extends task_2 {
         str = str.replaceAll("SFIT", "St.Francis Institute of Technology");
         String longWord = longestWord(str);
         String[] word = str.split(" ");
-        ArrayList<String> words = new ArrayList<>(
-                Arrays.asList(word));
+        ArrayList<String> words = new ArrayList<>(Arrays.asList(word));
         for (String s : words) {
             if (Objects.equals(s, longWord)) {
                 String newWord = "*" + s + "*";

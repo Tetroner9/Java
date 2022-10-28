@@ -9,7 +9,7 @@ interface Rectangle1{
 class Area implements Rectangle1{
     public float w,l;
     public float area;
-    @Override
+
     public void print_cal() {
         System.out.println("Enter width and length:");
         w=sc.nextFloat();
@@ -21,7 +21,7 @@ class Area implements Rectangle1{
 class Perimeter implements Rectangle1{
     public float w,l;
     public float area;
-    @Override
+
     public void print_cal() {
         System.out.println("\nEnter width and length:");
         w=sc.nextFloat();
