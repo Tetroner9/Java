@@ -7,14 +7,14 @@ public class  Temperature_Conversion {
         double c,f,k,ans;
         int choice;
         char cam='y';
-        System.out.println("Enter Celcius, Farenheit & Kelvin");
+        System.out.println("Enter Celsius, Fahrenheit & Kelvin");
         c=sc.nextFloat();
         f=sc.nextFloat();
         k=sc.nextFloat();
 
         while(cam=='y')
         {
-            System.out.println("Enter your choice:\n1.Celcius-->Farenheit\n2.Celcius-->Kelvin\n3.Farenheit-->Celcius\n4.Farenheit-->Kelvin\n5.Kelvin-->Celcius\n6.Kelvin-->Farenheit");
+            System.out.println("Enter your choice:\n1.Celsius-->Fahrenheit\n2.Celsius-->Kelvin\n3.Fahrenheit-->Celsius\n4.Fahrenheit-->Kelvin\n5.Kelvin-->Celsius\n6.Kelvin-->Fahrenheit");
             choice=sc.nextInt();
             switch(choice)
             {
