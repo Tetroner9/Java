@@ -25,8 +25,7 @@ class Perimeter implements Rectangle1{
         System.out.println("\nEnter width and length:");
         w=sc.nextFloat();
         l=sc.nextFloat();
-        float v = l * w;
-        area=2 * v;
+        area=2 * (l+w);
         System.out.printf("Perimeter of Rectangle with width %.2f and length %.2f is %.2f",w,l,area);
     }
 }
