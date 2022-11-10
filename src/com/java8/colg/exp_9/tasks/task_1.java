@@ -24,7 +24,6 @@ import java.util.*;
         System.out.println("Salary");
         Emp_salary=sc.nextFloat();
     }
-
 }
 
 

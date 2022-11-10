@@ -27,7 +27,7 @@ public class House extends Applet {
         //draw chimney
         g.setColor(Color.black);
         g.fillRect(120,55,10,30);
-
     }
-
 }
+/*<applet code ="House" width=600 height=600>
+</applet>*/

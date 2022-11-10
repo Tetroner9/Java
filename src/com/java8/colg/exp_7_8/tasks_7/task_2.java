@@ -3,7 +3,6 @@ import java.util.*;
 
 interface Rectangle1{
     void print_cal();
-
     Scanner sc = new Scanner(System.in);
 }
 class Area implements Rectangle1{

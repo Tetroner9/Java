@@ -3,11 +3,10 @@ import java.util.*;
 
 abstract class Shape{
     float a,b;
-    abstract public void printarea();
+    public abstract void printarea();
     Scanner sc=new Scanner(System.in);
 }
 class Square extends Shape{
-
     public float area_sq;
     public void printarea() {
         System.out.println("Enter side of square:");
@@ -50,6 +49,5 @@ public class task_1 {
         s.printarea();
         r.printarea();
         c.printarea();
-
     }
 }

@@ -30,10 +30,9 @@ public class task_1 {
         {
             ce.LetterLimit(name);
         }
-        catch (Exception w)
+        catch (NameLimit w)
         {
             System.out.println("Exception occurred" +w);
         }
-
     }
 }

@@ -34,6 +34,5 @@ public class task_1 {
         ref.m1();
         ref = c1;
         ref.m1();
-
     }
 }

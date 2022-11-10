@@ -3,6 +3,7 @@ import java.util.*;
 
 class MethodOverloading{
     void area(float s){
+
         System.out.printf("\nArea of Square with side %.2f is %.2f",s,(s*s));
     }
 
