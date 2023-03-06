@@ -51,7 +51,7 @@ public class Bank extends Applet implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         String s=e.getActionCommand();
         if(s.equals("Submit"))
-            status.setText("Your account has been successfully credited with INR5000");
+            status.setText("Submitted!");
     }
 }
 /* <applet code="BankForm.class" width=400 height=400> </applet> */
